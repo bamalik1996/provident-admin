@@ -1,0 +1,123 @@
+{
+  "@created_at": "2022-03-03T06:45:14+00:00",
+  "@mode": "CHANGE",
+  "@timestamp": "2022-11-18T12:10:14+00:00",
+  "id": "PS-18244",
+  "address_information": {
+    "city": "Dubai",
+    "address": "Cherrywoods",
+    "latitude": "25.00869",
+    "longitude": "55.15937"
+  },
+  "general_listing_information": {
+    "listing_title": "Lowest Price | Next to Pool - Single Row!",
+    "listingprice": "2400000.0",
+    "currency_iso_code": "AED",
+    "listingtype": "Sale",
+    "lotsize": "2710.0",
+    "property": "a0O5a00000uoOOdEAM",
+    "propertytype": "Townhouse",
+    "status": "Active",
+    "totalarea": "2600.0",
+    "description": "Property Details:\n- 4 Bedrooms including 2 en suites bedrooms\n- Lane of 2plex Villas Semi-Detached\n- 5 Bathrooms\n- Living room\n- Family room\n- Maid's room\n- Dining room\n- 2,634 Sq.ft size\n- A gargantuan private garden\n- A well-sized veranda\n- Covered Parking\n\nFacilities and Amenities:\n\n- Park & Lake\n- Court of Squash\n- Tennis Court Several\n- Tracks for Jogging\n- Courts for Basketball\n- Tracks for Cycling\n- Paths\n- Fitness club\n- Secure play areas for children\n- Swimming pool\n\nOnly Meraas community on Al Qudra\n\nCherrywoods Townhouses includes contemporary interior, spacious rooms that are beyond imagination and the art created to its best. Meraas Properties providing a space where residents can start their beautiful memories with friends and family. Meraas Cherrywoods Townhouses is an exclusive gated community near to retail, dining, and central park. It is the place where you will not need to go far away for your needs, all are available near to your doorstep.\n\nIncomparable opportunities like this won't come by often. The logical next step to take is to get in touch with Zaid to schedule a viewing.\n\nCompany name: Provident Real Estate\nRERA ORN: 1933\nOffice phone no: +97143233609\nWebsite: www.providentestate.com",
+    "bedrooms": "4",
+    "fullbathrooms": "5"
+  },
+  "listing_agent": {
+    "listing_agent_email": "zayed@providentestate.com",
+    "listing_agent_firstname": "Mohammad",
+    "listing_agent_lastname": "Zaid",
+    "listing_agent_phone": "+971529992763"
+  },
+  "listing_media": {
+    "images": [
+      {
+        "title": "9 (12).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/wsu1slq1a/9%20%2812%29.jpg"
+      },
+      {
+        "title": "8 (15).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/0by6myksl/8%20%2815%29.jpg"
+      },
+      {
+        "title": "7 (17).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/a2xra0l8l/7%20%2817%29.jpg"
+      },
+      {
+        "title": "6 (16).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/mfd1a7u8m/6%20%2816%29.jpg"
+      },
+      {
+        "title": "5 (15).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/3depdvj3e/5%20%2815%29.jpg"
+      },
+      {
+        "title": "4 (16).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/87cic1gpo/4%20%2816%29.jpg"
+      },
+      {
+        "title": "3 (17).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/pheceiq29/3%20%2817%29.jpg"
+      },
+      {
+        "title": "2 (16).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/loohsgopw/2%20%2816%29.jpg"
+      },
+      {
+        "title": "1 (14).jpg",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/8cvks2h27/1%20%2814%29.jpg"
+      },
+      {
+        "title": "7.JPG",
+        "url": "https://s3.amazonaws.com/propertybase-clients/00D3h000006dlegEAA/a0O5a00000uoOOd/jqwayfece/7.JPG"
+      }
+    ]
+  },
+  "custom_fields": {
+    "lastvieweddate": "2022-11-18T12:10:12.000+0000",
+    "pba__geocodeaccuracy_pb": "Neighborhood",
+    "pba__latitude_property": "25.00869",
+    "pba__longitude_property": "55.15937",
+    "pba__systemallowedforportals": "true",
+    "pba_uaefields__available_from": "2023-05-01",
+    "pba_uaefields__city_dubizzle": "Dubai",
+    "pba_uaefields__city_propertyfinder": "Dubai",
+    "pba_uaefields__commercial_amenities": "Shared Gym;Shared Pool",
+    "pba_uaefields__community_propertyfinder": "Dubai Land",
+    "pba_uaefields__completion_status": "Off Plan",
+    "year_build_text": "0",
+    "pba__addresstext_pb": "Cherrywoods",
+    "pba_uaefields__floor": "1",
+    "pba_uaefields__furnished": "No",
+    "pba_uaefields__locationtext_dubizzle": "Cherrywoods",
+    "pba_uaefields__parking": "2",
+    "pba__unitnumber": "P3-68",
+    "pba__propertyownercontact_pb": "0035a00002rVAT6AAO",
+    "pba__view_pb": "Community",
+    "pba__yearbuilttext_pb": "0",
+    "pba_uaefields__price_unit": "Price Yearly",
+    "pba_uaefields__private_amenities": "Central A/C & Heating;Balcony;Children's Pool;Built in Wardrobes",
+    "pba_uaefields__property_sub_type": "Residential - Townhouse",
+    "pba_uaefields__propertyfinder_region": "Dubai - Dubai Land - Cherrywoods",
+    "pba_uaefields__rera_permit_number": "65253351489",
+    "pba_uaefields__sub_community_propertyfinder": "Cherrywoods",
+    "autonumber_test": "30353",
+    "type_prov": "4E",
+    "autonumber_sale": "18244",
+    "autonumber_rent": "14813",
+    "property_status_prov": "Available",
+    "str_prov": "1933/45477/2022/03/33",
+    "managed_property_prov": "Yes",
+    "exclusive_property_prov": "No",
+    "featured_prov": "Yes",
+    "property_tenanted_prov": "No",
+    "listing_source_prov": "Cold Call",
+    "transaction_no": "46456",
+    "media_last_changed_c": "2022-03-03T17:19:41.000+0000",
+    "portal": "Generic",
+    "generator": "generic",
+    "error_email": "technik@propertybase.com",
+    "provider_software": "Propertybase",
+    "provider_software_version": "3.0"
+  }
+}

@@ -1,0 +1,252 @@
+.dragandrophandler_input {
+    border: 2px dotted #0B85A1;
+    width: 100%;
+    margin: 0 auto;
+    color: #92AAB0;
+    vertical-align: middle;
+    padding: 95px;
+    text-align: center;
+}
+
+input#media_files {
+    opacity: 0;
+}
+
+.progressBar {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px 10px 5px 5px;
+    vertical-align: top;
+}
+
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px;
+    /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #4caf50;
+    border-radius: 3px;
+}
+
+/* .statusbar {
+                            border-top: 1px solid #A9CCD1;
+                            min-height: 25px;
+                            width: 700px;
+                            padding: 10px 10px 0px 10px;
+                            vertical-align: top;
+                        } */
+
+/* .statusbar:nth-child(odd) {
+                            background: #EBEFF0;
+                        } */
+
+.filename {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+
+.filesize {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.abort {
+    background-color: #A8352F;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #fff;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 4px 15px;
+    cursor: pointer;
+    vertical-align: top
+}
+
+div#media-list>div>.card {
+    cursor: pointer;
+    padding: 2px;
+}
+
+.media-select>div {
+    box-shadow: 0 2px 6px 0 rgb(209 174 0 / 65%), 0 2px 6px 0 rgb(207 174 0 / 54%);
+}
+
+.single-media-image {
+    height: 100px;
+    object-fit: contain;
+}
+
+
+#media-attachment-sticky .media-select>div {
+    margin: 0px;
+}
+
+#media-attachment-sticky .card-body .card {
+    margin: 0;
+}
+
+#media-attachment-sticky .card-body .single-media-image {
+    height: 140px;
+    object-fit: contain;
+}
+
+
+#selected-media-card .fiv-cla {
+    font-size: 6em;
+}
+
+#selected-media-card img {
+    height: 85px !important;
+    object-fit: cover;
+}
+
+div#selected-media-card {
+    border-style: solid;
+    max-height: 335px;
+    min-height: 335px;
+    border-color: #ced4da;
+    overflow-y: auto;
+}
+
+.card.multi-media-select-false #selected-media-card {
+    min-height: 180px;
+}
+
+.card.multi-media-select-false {
+    width: 225px;
+    /* min-height: 200px;
+    max-height: 200px; */
+}
+
+.card.multi-media-select-false #selected-media-card {
+    padding: 0;
+    overflow: hidden;
+}
+
+.card.multi-media-select-false .card {
+    padding: 0;
+    box-shadow: none;
+    margin: 0;
+}
+
+.card.multi-media-select-false div#selected-media-card .row {
+    width: 100%;
+    margin: 0;
+}
+
+.card.multi-media-select-false div#selected-media-card .row>div {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0;
+}
+
+.card.multi-media-select-false #selected-media-card img {
+    height: 198px !important;
+    object-fit: contain;
+}
+
+.card.multi-media-select-false #selected-media-card .fiv-cla {
+    font-size: 14.2em;
+}
+
+.card.multi-media-select-true .card {
+    margin: 0;
+}
+
+.card.multi-media-select-true div#selected-media-card >.row > div {
+    cursor: move;
+    margin-bottom: 10px;
+}
+
+.card.media-library-body .list-group-item {
+    padding: 2px;
+}
+
+.card.media-library-body .list-group-item small {
+    font-size: 10px;
+}
+
+#media-list>div.media-select {
+    position: relative;
+}
+
+#media-list>div.media-select:after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    z-index: 100;
+    background-image: url(/assets/images/checked-checkbox.png);
+    width: 25px;
+    background-size: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+li.statusbar.file-error-status {
+    background: #f44336;
+    color: white;
+}
+
+
+#single-media-modal-row .single-media-image {
+    object-fit: contain;
+    max-height: 500px;
+    height: 500px;
+    width: 100%;
+}
+
+#single-media-modal-row .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#media-list ul li {
+    padding: 3px;
+}
+
+.text-ellipsis-dot {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div#media-list>div>.card:hover li small {
+    white-space: normal;
+}
+
+div#media-list>div>.card:hover ul li:first-child small {
+    white-space: normal;
+}
+
+div#media-list>div>.card:hover ul li:first-child {
+    position: absolute;
+    background: white;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+    width: 100%;
+    z-index: 99;
+}
+
+#selected-media-card .row>div {
+    width: 15.111111%;
+}
+
+#media-list>div {
+    width: 11.111111%;
+}

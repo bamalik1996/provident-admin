@@ -1,0 +1,68 @@
+<?php
+
+return [
+    [
+        'name' => 'Dashboard',
+        'url' => '/',
+        'permission' => 'dashboard',
+        'group' => '',
+        'order' => '0',
+        'iconUrl' => '/admin_icons/dashboard-14.svg',
+    ],
+    [
+        'name' => 'Menu',
+        'url' => '/menus',
+        'permission' => 'menu.list',
+        'group' => 'General',
+        'order' => '2',
+        'iconUrl' => '/admin_icons/menu-12.svg',
+    ],
+    [
+        'name' => 'Media',
+        'url' => '/media',
+        'permission' => 'media.list',
+        'group' => 'General',
+        'order' => '1',
+        'iconUrl' => '/admin_icons/media-13.svg',
+    ],
+    [
+        'name' => 'Page',
+        'url' => '/pages',
+        'permission' => 'pages.list',
+        'group' => 'General',
+        'order' => '3',
+        'iconUrl' => '/admin_icons/pages-11.svg',
+    ],
+    [
+        'name' => 'Theme Settings',
+        'url' => '/theme_settings/create',
+        'permission' => 'theme.settings.list',
+        'group' => 'Setting',
+        'order' => '17',
+        'iconUrl' => '/admin_icons/theme settings-07.svg',
+    ],
+    [
+        'name' => 'Contact',
+        'url' => '/contacts',
+        'order' => '21',
+        'permission' => ['contacts.list'],
+        'iconUrl' => '/admin_icons/Contact.svg',
+        'group' => 'Listing',
+    ],
+    [
+        'name' => 'Roles',
+        'url' => '/roles',
+        'order' => '24',
+        'permission' => ['roles.list'],
+        'iconUrl' => '/admin_icons/roles-03.svg',
+        'group' => 'User Setting',
+    ],
+    [
+        'name' => 'Users',
+        'url' => '/users',
+        'order' => '25',
+        'permission' => ['users.list'],
+        'group' => 'User Setting',
+        'iconUrl' => '/admin_icons/users-02.svg',
+    ],
+];
